@@ -33,6 +33,11 @@ a:hover {
 #name {
     color: rgb(75, 146, 128)
 }
+#custom-btn {
+    background-color: rgb(75, 146, 128);
+    border: rgb(75, 146, 128);
+    margin: 5% 0 0 0;
+}
 /*makes the navbar transparent*/
 .navbar-inner {
     background: transparent;
@@ -124,6 +129,10 @@ a:hover {
     .custom-aboutme-wrapper {
         padding: 0 1% 20% 1%;
     }
+
+    .custom-contact-wrapper {
+        padding-bottom: 20%;
+    }
     .github,
     .linkedin,
     .instagram {
@@ -145,6 +154,9 @@ and (max-width: 480px){
     }
     .custom-aboutme-wrapper {
         padding: 5% 8% 30% 8%;
+    }
+    .custom-contact-wrapper {
+        padding: 5% 8% 30% 5%;
     }
     .github,
     .linkedin,
@@ -169,7 +181,9 @@ and (max-width: 768px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-    
+    .custom-contact-wrapper {
+        padding: 5% 8% 30% 5%;
+    }
     .github,
     .linkedin,
     .instagram {
@@ -197,7 +211,9 @@ and (max-width: 992px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-   
+    .custom-contact-wrapper {
+        padding: 5% 8% 30% 5%;
+    }
     .github,
     .linkedin,
     .instagram {
@@ -223,7 +239,9 @@ and (max-width: 992px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-    
+    .custom-contact-wrapper {
+        padding: 5% 8% 30% 5%;
+    }
     .github,
     .linkedin,
     .instagram {
