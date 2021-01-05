@@ -1,0 +1,238 @@
+/*Custom CSS*/
+/*scroll smoothly for the entire page*/
+* {
+    scroll-behavior: smooth;
+}
+/*makes it flow smoothly*/
+body {
+    overflow: scroll;
+}
+
+
+/*the hyperlinks on navbar color*/
+a {
+    color: rgb(75, 146, 128) !important;
+}
+/*hyperlinks color when hovered over*/
+a:hover {
+    color: rgb(52, 227, 250) !important;
+}
+
+/*Hi, I am, Danielle color style*/
+#hi,
+#I-am:hover,
+#Danielle:hover {
+    color: black;
+}
+#I-am,
+#Danielle,
+#hi:hover {
+    color: rgb(75, 146, 128)
+}
+/*footer name color change*/
+#name {
+    color: rgb(75, 146, 128)
+}
+/*makes the navbar transparent*/
+.navbar-inner {
+    background: transparent;
+    position: fixed;
+}
+/*my initials on the navbar*/
+.navbar-brand {
+    background-color: rgb(75, 146, 128);
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    padding: 10px; 
+    border-radius: 50%;
+}
+
+/*first section on index, portfolio, and contact background image*/
+.background-img {
+    background-image: url("../images/tech-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute; 
+}
+
+/*make image rounded*/
+.custom-img-me {
+    border-radius: 50%;
+}
+/*makes image have an outline when hovered on*/
+.custom-img-me:hover {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px;
+}
+
+/*Second section on index background color*/
+.custom-aboutme-wrapper {
+    background-color: rgba(90, 161, 146, 0.616);
+    width: 100%;
+}
+
+/*About me, contact, portfolio text color and border*/
+.custom-about-contact-portfolio {
+    color:rgb(143, 143, 146);
+    border-bottom: 1px solid rgb(102, 98, 98);
+}
+
+/*footer style*/
+.custom-footer {
+    background-color:#26272b;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#737373;
+}
+
+.copyright-text {
+    padding-top: 10px;
+}
+
+/*social icons on footer style*/
+
+.social-icons li{
+  display:inline-block;
+}
+
+.social-icons a {
+  display:inline-block;
+  text-align:center;
+  padding-right: 4px;
+}
+.copyright-text,
+.social-icons {
+    text-align: center;
+}
+
+/*media queries*/
+
+
+/*screens 299px and smaller, x-small*/
+@media screen and (max-width: 299px) {
+    .custom-main-words {
+        text-align: left;
+    }
+    .custom-words-wrapper {
+        padding: 0;
+        margin-top: 10%;
+    }
+    .custom-image-wrapper {
+        padding: 10% 0 10% 0;
+    }
+    .custom-aboutme-wrapper {
+        padding: 0 1% 20% 1%;
+    }
+    .github,
+    .linkedin,
+    .instagram {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/*screens 300px to 400px, small*/
+@media screen 
+and (min-width: 300px)
+and (max-width: 480px){
+    .custom-words-wrapper {
+        padding: 0;
+        margin: 10% 0 5% 2%;
+    }
+    .custom-image-wrapper {
+        padding: 10% 0 10% 0;
+    }
+    .custom-aboutme-wrapper {
+        padding: 5% 8% 30% 8%;
+    }
+    .github,
+    .linkedin,
+    .instagram {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+/*screens 401px and 768, medium*/
+@media screen
+and (min-width: 481px)
+and (max-width: 768px) {
+    .custom-words-wrapper {
+        margin: 15% auto 15% auto;
+        padding: 0 0 0 5%;
+    }
+    .custom-image-wrapper {
+        margin: 0 auto 0 0;
+        padding: 0 0 10% 0;
+    }
+    .custom-aboutme-wrapper {
+        padding: 5% 5% 20% 5%;
+    }
+    
+    .github,
+    .linkedin,
+    .instagram {
+        height: 35px;
+        width: 35px;
+    }
+    #hi,
+    #I-am,
+    #Danielle {
+        font-size: 3.5rem;
+    }
+}
+
+/*screens 769px to 992px, large*/
+@media screen 
+and (min-width: 769px)
+and (max-width: 992px) {
+    .custom-words-wrapper {
+        padding: 10% 0 0 5%;
+    }
+
+    .custom-image-wrapper {
+        margin: 10% 0 10% 0;
+    }
+    .custom-aboutme-wrapper {
+        padding: 5% 5% 20% 5%;
+    }
+   
+    .github,
+    .linkedin,
+    .instagram {
+        height: 38px;
+        width: 38px;
+    }
+    #hi,
+    #I-am,
+    #Danielle {
+        font-size: 4rem;
+    }
+}
+
+/*screen 993px and bigger, x-large*/
+@media screen and (min-width: 993px) {
+    .custom-words-wrapper {
+        padding: 10% 0 0 5%;
+    }
+
+    .custom-image-wrapper {
+        margin: 10% 0 10% 0;
+    }
+    .custom-aboutme-wrapper {
+        padding: 5% 5% 20% 5%;
+    }
+    
+    .github,
+    .linkedin,
+    .instagram {
+        height: 40px;
+        width: 40px;
+    }
+    #hi,
+    #I-am,
+    #Danielle {
+        font-size: 4.5rem;
+    }
+}
