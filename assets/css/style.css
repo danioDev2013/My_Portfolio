@@ -30,7 +30,9 @@ a:hover {
     color: rgb(75, 146, 128)
 }
 /*footer name color change*/
-#name {
+#name,
+#contact-me-custom,
+#portfolio-custom {
     color: rgb(75, 146, 128)
 }
 #custom-btn {
@@ -71,7 +73,8 @@ a:hover {
 }
 
 /*Second section on index background color*/
-.custom-aboutme-wrapper {
+.custom-aboutme-wrapper,
+.custom-portfolio-wrapper {
     background-color: rgba(90, 161, 146, 0.616);
     width: 100%;
 }
@@ -130,7 +133,8 @@ a:hover {
         padding: 0 1% 20% 1%;
     }
 
-    .custom-contact-wrapper {
+    .custom-contact-wrapper,
+    .custom-portfolio-wrapper {
         padding-bottom: 20%;
     }
     .github,
@@ -155,7 +159,8 @@ and (max-width: 480px){
     .custom-aboutme-wrapper {
         padding: 5% 8% 30% 8%;
     }
-    .custom-contact-wrapper {
+    .custom-contact-wrapper ,
+    .custom-portfolio-wrapper{
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -181,7 +186,8 @@ and (max-width: 768px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-    .custom-contact-wrapper {
+    .custom-contact-wrapper,
+    .custom-portfolio-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -211,7 +217,8 @@ and (max-width: 992px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-    .custom-contact-wrapper {
+    .custom-contact-wrapper,
+    .custom-portfolio-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -239,7 +246,8 @@ and (max-width: 992px) {
     .custom-aboutme-wrapper {
         padding: 5% 5% 20% 5%;
     }
-    .custom-contact-wrapper {
+    .custom-contact-wrapper,
+    .custom-portfolio-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
