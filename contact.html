@@ -50,41 +50,61 @@
         <main class="container-fluid custom-main">
 
             <!--contact wrapper-->
-            <section class="custom-contact-wrapper">
-                    <section>
-
-                        <!--Row 1, contact header-->
+            <section class="row custom-contact-wrapper">
+                    <section class="col">
                         <article class="row">
-                            <article class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6" id="custom-contactme">
-                                <h1 class="custom-about-contact-portfolio" id="contact-me-custom">Contact Me</h1>
+                            <article class="col-12">
+                                <!--Row 1, contact header-->
+                                <article class="row">
+                                    <article class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6" id="custom-contactme">
+                                        <h1 class="custom-about-contact-portfolio" id="contact-me-custom">Contact Me</h1>
+                                    </article>
+                                </article>
+                                <!--Row 2, email paragraph-->
+                                <article class="row">
+                                    <article class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6 custom-paragraph text-center">
+                                        <p> If you want to talk to me you can fill out the form below or send an email to 
+                                            <a href="mailto:daniorley2021@gmail.com">daniorley2021@gmail.com</a>
+                                        <p>
+                                    </article>
+                                </article>
+
+                                <!--Row 3 form, trying to get to work-->
+                                <article class="row">
+                                    <form action="mailto:danielle.m.orley1993@gmail.com" method="post"
+                                    enctype="text/plain" class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6">
+                                    
+                                    <!--name input area-->
+                                    <article class="form-group">
+                                        <label for="info">Name:</label>
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="enter name">
+                                    </article>  
+                                
+                                    <!--Email input area-->
+                                    <article class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" name="mail" class="form-control" id="email" placeholder="enter email" name="email">
+                                    </article> 
+
+                                    <!--Comment input area-->
+                                    <article class="form-group">
+                                        <label for="comment">Message:</label>
+                                        <textarea class="form-control" name="comment" rows="6" id="comment" placeholder="enter message here/optional"></textarea>
+                                    </article>  
+                                
+                                    <button type="submit" value="Send" class="btn btn-primary" id="custom-btn">
+                                        Submit
+                                    </button>
+                                    </form>
+                                </article>
                             </article>
                         </article>
-
-                        <!--Row 2 form, trying to get to work-->
-                        <article class="row">
-                            <form action="/action_page.php" class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6">
-                                <!--name input area-->
-                                <article class="form-group">
-                                    <label for="info">Name:</label>
-                                    <input type="text" class="form-control" id="name" placeholder="enter name">
-                                </article>  
-                                <!--Email input area-->
-                                <article class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="email" class="form-control" id="email" placeholder="enter email" name="email">
-                                </article>  
-                                <!--Comment input area-->
-                                <article class="form-group">
-                                    <label for="comment">Message:</label>
-                                    <textarea class="form-control" rows="6" id="comment" placeholder="enter message here/optional"></textarea>
-                                </div>  
-                                
-                                <button type="submit" class="btn btn-primary" id="custom-btn">
-                                    Submit
-                                </button>
-                            </form>
-                        </article>
+                      
                     </section>
+
+                    
+
+                
             </section>
         </main>
     </section>
@@ -112,7 +132,7 @@
                 <ul class="social-icons">
                     <!--Icon-1, Github link-->
                     <li>
-                        <a class="github" href="https://github.com/dorley1993">
+                        <a class="github" href="https://github.com/dorley1993" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 
                                     5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
@@ -125,7 +145,7 @@
 
                     <!--Icon 2, Linked-in link-->
                     <li>
-                        <a class="linkedin" href="#">
+                        <a class="linkedin" href="https://www.linkedin.com/in/danielle-orley-11a80aa2" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 
                                     1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 
@@ -138,7 +158,7 @@
 
                     <!--Icon 3, Instagram link plan to use for coding-->
                     <li>
-                      <a class="instagram" href="#">
+                      <a class="instagram" href="https://www.instagram.com/rainbowdevmonster/ " target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 
                                 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 

@@ -47,32 +47,50 @@
         </nav>
 
         <!--Portfolio Main Section-->
-        <main class="container-fluid custom-main">
+        <main class="container-fluid">
 
-            <!--Portfolio wrapper-->
-            <section class="container-fluid custom-portfolio-wrapper">
-                    <section class="row">
-                        <article class="col">
-
-                            <article class="row">
-                                <article class="col-xs-12 col-s-12 col-md-6 col-lg-8 col-xl-6" id="custom-portfolio">
-                                  <h1 class="custom-about-contact-portfolio" id="portfolio-custom">Portfolio</h1>
-                                </article>
-                              </article>
-
-                            <article class="row">
-                                <article class="col-xs-12 col-s-12 col-md-6 col-lg-8 col-xl-6" id="portfolio-images">
-                                  <img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1">
-                                  <img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1">
-                                  <img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1">
-                                  <img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1">
-                                  <img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1">
-                                </article>
+            
+            <section class="row">
+                <section class="col">
+                    <!--row 1 in nested row on portfolio-->
+                    <article class="custom-portfolio-wrapper">
+                        <article class="row">
+                            <article class="col-xs-12 col-s-8 col-md-8 col-lg-8 col-xl-8" id="custom-portfolio">
+                                <h1 class="custom-about-contact-portfolio" id="portfolio-custom">Developer Danielle's Portfolio</h1>
                             </article>
-        
                         </article>
-                    </section>
+                            
+                        <!--row 2 in nested row on portfolio, Paragraph before pictures-->
+                        <article class="row">
+                            <article class="col-xs-12 col-s-8 col-md-8 col-lg-8 col-xl-8 custom-paragraph text-center">
+                                <p> Below are my latest web development portfolio projects! Check them out by clicking on the image.<p>
+                            </article>
+                        </article>
 
+                        <!--row 3 in nested row on portfolio, pictures-->
+                        <article class="row">
+                            <article class="col-xs-12 col-s-8 col-md-8 col-lg-8 col-xl-8 text-center" id="portfolio-images">
+                                <!--placeholder image, eventually my websites-->
+                                 <a href="#" target="_blank"><img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1"></a>
+                                 <a href="#" target="_blank"><img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1"></a>
+                                 <a href="#" target="_blank"><img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1"></a>
+                                 <a href="#" target="_blank"><img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1"></a>
+                                 <a href="#" target="_blank"><img src="https://via.placeholder.com/350" alt="projects" class="img-fluid m-1"></a>
+                            </article>
+                        </article>
+
+                        <!--row 4 in nested row on portfolio, paragraph after pictures, link to contact-->
+                        <article class="row" id="portfolio-paragragh-2">
+                            <article class="col-xs-12 col-s-8 col-md-8 col-lg-8 col-xl-8 text-center">
+                                <p class="custom-paragraph"> 
+                                    Like what you see. <a href="contact.html">Contact me</a> on my contact page, or follow
+                                    me on my social links below.
+                                <p>
+                            </article>
+                        </article>
+
+                    </article>
+                </section>
             </section>
         </main>
        
@@ -103,7 +121,7 @@
                 <ul class="social-icons">
                     <!--Icon-1, Github link-->
                     <li>
-                        <a class="github" href="https://github.com/dorley1993">
+                        <a class="github" href="https://github.com/dorley1993" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 
                                     5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
@@ -116,7 +134,7 @@
 
                     <!--Icon 2, Linked-in link-->
                     <li>
-                        <a class="linkedin" href="#">
+                        <a class="linkedin" href="https://www.linkedin.com/in/danielle-orley-11a80aa2" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 
                                     1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 
@@ -129,7 +147,7 @@
 
                     <!--Icon 3, Instagram link plan to use for coding-->
                     <li>
-                      <a class="instagram" href="#">
+                      <a class="instagram" href="https://www.instagram.com/rainbowdevmonster/ " target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 
                                 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 

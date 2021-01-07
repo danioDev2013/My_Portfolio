@@ -46,18 +46,18 @@
             </div>
         </nav>
 
-        <!--Pages Main Section with me image and the background-->
-        <main class="container-fluid custom-main">
+        <!--Pages Main Section-->
+        <main class="container-fluid">
 
-            <!--Row 1, main top row-->
+            <!--Row 1, main top row with picture and Hi, I am, Danielle.-->
             <section class="row">
                 <!--Nested within the main top row-->
-                <!--Column 1 (holds Hi, I'm Danielle)-->
+                <!--Column 1-->
                 <section class="col">
                     <section class="custom-words-wrapper">
                         <!--Row 1 Hi-->
                         <article class="row">
-                            <article class="col-xs-12 col-s-12 col-md-6 col-lg-8 col-xl-6">
+                            <article class="col-xs-12 col-s-12 col-md-6 col-lg-8 col-xl-4">
                                 <h1 class="custom-main-words" id="hi">Hi!</h1>
                             </article>
                         </article>
@@ -76,18 +76,20 @@
                             </article>
                         </article>
                     </section>
+                </section>
 
-                    <section class="custom-image-wrapper"> 
-                        <article class="row">
-                            <article class="col text-center">
-                                <a href="#aboutme-link">
-                                    <!--Picture of me-->
-                                    <img src="../My_Portfolio/assets/images/aboutme-img.JPEG" alt="picture of Danielle" class="img-fluid mx-auto custom-img-me">
-                                </a>
-                            </article>
+                <!--Col when it is larger, goes right of words-->
+                <section class="col-lg-8 custom-image-wrapper">
+                    <article class="row">
+                        <!--Keeps Picture center-->
+                        <article class="col text-center">
+                            <a href="#aboutme-link">
+                                <!--Picture of me-->
+                                <img src="../My_Portfolio/assets/images/aboutme-img.JPEG" alt="picture of Danielle" class="img-fluid mx-auto custom-img-me">
+                            </a>
                         </article>
-                    </section>
-
+                    </article>
+                </section>
                 </section>
             </section>
         </main>
@@ -96,7 +98,7 @@
 
 
     <!--About Me Section When scrolled or Clicked in navbar menu and picture-->
-    <section class="container-fluid custom-aboutme-wrapper">
+    <section class="container-fluid custom-aboutme-portfolio-wrapper ">
         <!--Main Bottom Row-->
             <article class="row">
 
@@ -113,10 +115,11 @@
                     <article class="row">
                         <div class="col-xs-12 col-s-12 col-md-8 col-lg-8 col-xl-8" id="custom-bio">
                             <!--Bio paragragh-->
-                            <p id="aboutme-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                            nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                            felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                            non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+                            <p id="aboutme-text"> Hi, my name is Danielle Orley. I’m a newly trained web developer. Still in the process of learning JavaScript.
+                                 I want to keep learning and push myself to be better and better, to exceed what the expectations were. Right now, my skills pertain 
+                                 to front-end web development. I have a wide range of skills from the different career paths I have explored. For instance, 
+                                 the military has taught me to stay calm during stressful situations and to take initiative when I need too. I’m a very hard worker and 
+                                 I take pride in my work. I strive to be the best I can be. If you would like to see what I’ve completed, <a href="portfolio.html" id="portfolio-bio">check it out!</a>
                             </p>
                         </div>
                     </article>
@@ -144,9 +147,10 @@
                 <!--menu for social icons: linked-in, github, and instagram
                 Icons found on bootstrap -->
                 <ul class="social-icons">
+                    
                     <!--Icon-1, Github link-->
                     <li>
-                        <a class="github" href="https://github.com/dorley1993">
+                        <a class="github" href="https://github.com/dorley1993" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 
                                     5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
@@ -159,7 +163,7 @@
 
                     <!--Icon 2, Linked-in link-->
                     <li>
-                        <a class="linkedin" href="#">
+                        <a class="linkedin" href="https://www.linkedin.com/in/danielle-orley-11a80aa2" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 
                                     1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 
@@ -172,7 +176,7 @@
 
                     <!--Icon 3, Instagram link plan to use for coding-->
                     <li>
-                      <a class="instagram" href="#">
+                      <a class="instagram" href="https://www.instagram.com/rainbowdevmonster/ " target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 
                                 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 

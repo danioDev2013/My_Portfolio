@@ -9,7 +9,8 @@ body {
 }
 
 
-/*the hyperlinks on navbar color*/
+/*the hyperlinks color, important 
+to override the bootstrap components*/
 a {
     color: rgb(75, 146, 128) !important;
 }
@@ -26,20 +27,25 @@ a:hover {
 }
 #I-am,
 #Danielle,
-#hi:hover {
-    color: rgb(75, 146, 128)
-}
-/*footer name color change*/
+#hi:hover,
 #name,
 #contact-me-custom,
 #portfolio-custom {
     color: rgb(75, 146, 128)
 }
+
+
+/*contact submit button style*/
 #custom-btn {
     background-color: rgb(75, 146, 128);
     border: rgb(75, 146, 128);
     margin: 5% 0 0 0;
 }
+/*Portfolio paragraph*/
+#portfolio-paragragh-2 {
+    padding-top: 5%;
+}
+
 /*makes the navbar transparent*/
 .navbar-inner {
     background: transparent;
@@ -62,10 +68,11 @@ a:hover {
     background-position: absolute; 
 }
 
-/*make image rounded*/
+/*make image of me rounded*/
 .custom-img-me {
     border-radius: 50%;
 }
+
 /*makes image have an outline when hovered on*/
 .custom-img-me:hover {
     border: 1px solid rgb(190, 190, 190);
@@ -73,8 +80,7 @@ a:hover {
 }
 
 /*Second section on index background color*/
-.custom-aboutme-wrapper,
-.custom-portfolio-wrapper {
+.custom-aboutme-portfolio-wrapper {
     background-color: rgba(90, 161, 146, 0.616);
     width: 100%;
 }
@@ -85,6 +91,11 @@ a:hover {
     border-bottom: 1px solid rgb(102, 98, 98);
 }
 
+/*paragraphs style color*/
+.custom-paragraph {
+    color:rgb(102, 98, 98);
+}
+
 /*footer style*/
 .custom-footer {
     background-color:#26272b;
@@ -93,26 +104,25 @@ a:hover {
     width: 100%;
     color:#737373;
 }
-
+/*COPYRIGHT text in footer*/
 .copyright-text {
     padding-top: 10px;
 }
 
 /*social icons on footer style*/
-
 .social-icons li{
   display:inline-block;
 }
+    .social-icons a {
+        display:inline-block;
+        text-align:center;
+        padding-right: 4px;
+    }
+    .copyright-text,
+    .social-icons {
+        text-align: center;
+    }
 
-.social-icons a {
-  display:inline-block;
-  text-align:center;
-  padding-right: 4px;
-}
-.copyright-text,
-.social-icons {
-    text-align: center;
-}
 
 /*media queries*/
 
@@ -129,14 +139,15 @@ a:hover {
     .custom-image-wrapper {
         padding: 10% 0 10% 0;
     }
-    .custom-aboutme-wrapper {
-        padding: 0 1% 20% 1%;
+    .custom-aboutme-portfolio-wrapper {
+        padding: 0 0 20% 0;
     }
 
     .custom-contact-wrapper,
-    .custom-portfolio-wrapper {
+    .custom-portfolio-wrapper{
         padding-bottom: 20%;
     }
+    
     .github,
     .linkedin,
     .instagram {
@@ -156,11 +167,11 @@ and (max-width: 480px){
     .custom-image-wrapper {
         padding: 10% 0 10% 0;
     }
-    .custom-aboutme-wrapper {
+    .custom-aboutme-portfolio-wrapper  {
         padding: 5% 8% 30% 8%;
     }
     .custom-contact-wrapper ,
-    .custom-portfolio-wrapper{
+    .portfolio-container-wrapper{
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -183,11 +194,11 @@ and (max-width: 768px) {
         margin: 0 auto 0 0;
         padding: 0 0 10% 0;
     }
-    .custom-aboutme-wrapper {
+    .custom-aboutme-portfolio-wrapper  {
         padding: 5% 5% 20% 5%;
     }
     .custom-contact-wrapper,
-    .custom-portfolio-wrapper {
+    .portfolio-container-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -214,11 +225,11 @@ and (max-width: 992px) {
     .custom-image-wrapper {
         margin: 10% 0 10% 0;
     }
-    .custom-aboutme-wrapper {
+    .custom-aboutme-portfolio-wrapper  {
         padding: 5% 5% 20% 5%;
     }
     .custom-contact-wrapper,
-    .custom-portfolio-wrapper {
+    .portfolio-container-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -237,17 +248,18 @@ and (max-width: 992px) {
 /*screen 993px and bigger, x-large*/
 @media screen and (min-width: 993px) {
     .custom-words-wrapper {
-        padding: 10% 0 0 5%;
+        padding: 5% 0 0 5%;
     }
 
     .custom-image-wrapper {
         margin: 10% 0 10% 0;
     }
-    .custom-aboutme-wrapper {
+    
+    .custom-aboutme-portfolio-wrapper  {
         padding: 5% 5% 20% 5%;
     }
     .custom-contact-wrapper,
-    .custom-portfolio-wrapper {
+    .portfolio-container-wrapper {
         padding: 5% 8% 30% 5%;
     }
     .github,
@@ -259,6 +271,10 @@ and (max-width: 992px) {
     #hi,
     #I-am,
     #Danielle {
-        font-size: 4.5rem;
+        font-size: 5rem;
+    }
+    .custom-img-me {
+        width: 500px;
+        height: auto;
     }
 }
