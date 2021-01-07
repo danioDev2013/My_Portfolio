@@ -60,39 +60,41 @@
                                         <h1 class="custom-about-contact-portfolio" id="contact-me-custom">Contact Me</h1>
                                     </article>
                                 </article>
+
                                 <!--Row 2, email paragraph-->
                                 <article class="row">
                                     <article class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6 custom-paragraph text-center">
-                                        <p> If you want to talk to me you can fill out the form below or send an email to 
-                                            <a href="mailto:daniorley2021@gmail.com">daniorley2021@gmail.com</a>
+                                        <p> If you want to talk to me about a project you see or to create a website,
+                                             you can fill out the form below or send an email to 
+                                            <a href="mailto:daniorley2021@gmail.com">daniorley2021@gmail.com</a>.
                                         <p>
                                     </article>
                                 </article>
 
-                                <!--Row 3 form, trying to get to work-->
+                                <!--Row 3 form, works through gform-->
                                 <article class="row">
-                                    <form action="mailto:danielle.m.orley1993@gmail.com" method="post"
-                                    enctype="text/plain" class="col-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6">
+                                    <form class="gform ol-xs-12 col-s-12 col-md-8 col-lg-6 col-xl-6" method="POST" data-email="daniorley1993@gmail.com"
+                                    action="https://script.google.com/macros/s/AKfycbwbt47-Gi36Pjs7KHkSNllbQHFOR2FdvsNExnrHKHsa9KrakTQ/exec">
                                     
                                     <!--name input area-->
                                     <article class="form-group">
                                         <label for="info">Name:</label>
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="enter name">
+                                        <input type="text" name="name" class="form-control gform" id="name" placeholder="enter name">
                                     </article>  
                                 
                                     <!--Email input area-->
                                     <article class="form-group">
                                         <label for="email">Email:</label>
-                                        <input type="email" name="mail" class="form-control" id="email" placeholder="enter email" name="email">
+                                        <input type="email" name="email" class="form-control gform" id="email" placeholder="enter email" name="email">
                                     </article> 
 
                                     <!--Comment input area-->
                                     <article class="form-group">
                                         <label for="comment">Message:</label>
-                                        <textarea class="form-control" name="comment" rows="6" id="comment" placeholder="enter message here/optional"></textarea>
+                                        <textarea class="form-control gform" name="message" rows="6" id="comment" placeholder="enter message here/optional"></textarea>
                                     </article>  
                                 
-                                    <button type="submit" value="Send" class="btn btn-primary" id="custom-btn">
+                                    <button type="submit" value="Send" class="btn btn-primary gform" id="custom-btn">
                                         Submit
                                     </button>
                                     </form>
