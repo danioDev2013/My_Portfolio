@@ -12,7 +12,8 @@ This is my portfolio. I wanted to create a portfolio to showcase some of my new 
 
 Creating my portfolio, I learned alot skills. I learned: how to create multiple different pages, working with a grid system on bootsrap, more about bootstrap, linking social links, using media queries making the website more responsive, and how to work with a form. The form took me the longest.
 
-url: 
+url: https://dorley1993.github.io/My_Portfolio/
+
 ## Table of Contents
 ---
 * [Usage](#usage) 
