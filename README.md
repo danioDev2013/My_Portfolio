@@ -67,4 +67,4 @@ If you would like to you can also see when you go to a smaller screen it is resp
 
 ## License
 ---
-Copyright © 2021 Danielle Orley, 
+Copyright © 2021 Danielle Orley 
